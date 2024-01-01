@@ -1,0 +1,49 @@
+.navUp {
+    position: absolute;
+    text-align: center;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    z-index: 10;
+    top: -15%;
+}
+
+.navDown {
+    position: absolute;
+    text-align: center;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    z-index: 10;
+    top: 0%;
+}
+
+.inactive {
+    position: absolute;
+    opacity: 0.5;
+    top: 45%;
+    transform: rotate(90deg) scale(20%);
+}
+
+.inactive:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.active {
+    position: absolute;
+    opacity: 0.5;
+    top: 45%;
+    transform: rotate(270deg) scale(20%);
+}
+
+.active:hover {
+    opacity: 1;
+    cursor: pointer;
+}

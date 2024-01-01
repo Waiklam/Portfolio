@@ -1,0 +1,135 @@
+.homepage {
+    background-color: #222;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
+.gradient {
+    position: inherit;
+    --speed: 50s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+
+    width: 50%;
+    aspect-ratio: 1/1;
+    filter: blur(5rem);
+    background: linear-gradient(hwb(158 22% 8% / 0.85), hwb(252 22% 8%));
+
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+@media (min-width: 720px) {
+    .gradient {
+        --size: 500px;
+    }
+}
+
+/* This is just to transition when you change the viewport size. */
+* {
+    transition: all 0.25s ease-out;
+}
+
+.opening-group {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 600px;
+    min-height: 200px;
+    z-index: 1;
+    color: whitesmoke;
+    text-shadow: #222 1px 0 10px;
+}
+
+.opening-group h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15vh;
+    margin: 0;
+}
+
+.opening-group h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.about {
+    position: inherit;
+    font-size: 4rem;
+    width: 100%;
+    height: 100%;
+    line-height: 1.5;
+    opacity: 0;
+    z-index: 1;
+    filter: blur(4px);
+    animation: scale 2s forwards;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-wrapper {
+    position: inherit;
+    visibility: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    display: inline-block;
+    height: 600px;
+    width: 1200px;
+    visibility: inherit;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.about-button {
+    position: absolute;
+    left: 3%;
+    rotate: -90deg;
+    border: none;
+    color: lightgray;
+    background-color: transparent;
+    font-size: 0.75rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.about-button:hover {
+    color: white;
+}
+
+.balance {
+    position: absolute;
+    right: 2.5%;
+    rotate: -90deg;
+    border: none;
+    color: lightgray;
+    background-color: transparent;
+    font-size: 0.75rem;
+    font-weight: bold;
+    z-index: 2;
+}
