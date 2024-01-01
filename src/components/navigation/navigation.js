@@ -37,7 +37,7 @@ const Navigation = () => {
                     </NavLink>
                 </li>
             </ul>
-            <img className={buttonActive} onClick={navTransition} src={ArrowButton} />
+            <img className={`navButton ${buttonActive}`} onClick={navTransition} src={ArrowButton} />
         </nav>
     )
 }

@@ -1,25 +1,30 @@
-import React, { useCallback } from "react";
+import React, { useCallback, useState } from "react";
 import './homepage.css';
 
 
 
 
 const Home = () => {
-    
+    const [aboutState, setAboutState] = useState('About');
+    const [openingState, setOpeningState] = useState('Close');
 
-    const aboutChange = () = useCallback((e) => {
-        
+    const aboutChange = useCallback((e) => {
+        if (aboutState === 'About') {
+            setAboutState('Close');
+            setOpeningState('About')
+        } else {
+            setAboutState('About');
+            setOpeningState('Close')
+        }
     })
 
     return (
         <div className="homepage">
-            <div className="about">
-                <div className="about-wrapper">
-                    <p className="about-text">Hello, my name is Wai Lam. I am a self-taught web developer that wants to help companies deliver wonderful and intuitive experiences.</p>
-                </div>
+            <div className={`about ${aboutState}`}>
+                <p className="about-text">Hello, my name is Wai Lam. I am a self-taught web developer that wants to help companies deliver wonderful and intuitive experiences.</p>
             </div>
-            <button className="about-button">About</button>
-            <div className="opening-group">
+            <button className="about-button" onClick={aboutChange}>{aboutState}</button>
+            <div className={`opening-group ${openingState}`}>
                 <h1>Wai Lam</h1>
                 <h2>Web Developer</h2>
             </div>
