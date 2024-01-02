@@ -16,7 +16,7 @@ const Home = () => {
             setAboutState('About');
             setOpeningState('Close')
         }
-    })
+    }, [aboutState])
 
     return (
         <div className="homepage">

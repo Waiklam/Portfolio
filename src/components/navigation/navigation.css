@@ -13,6 +13,24 @@ nav {
     top: -15%;
 }
 
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+nav a:hover {
+    text-shadow: #fff 1px 0 10px;
+}
+
 .navUp {
     top: -15%;
 }

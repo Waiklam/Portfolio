@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import { NavLink } from "react-router-dom";
 import './navigation.css';
 import ArrowButton from '../../resources/images/arrow-button.png';
@@ -17,7 +17,7 @@ const Navigation = () => {
             setButtonActive('active');
             setNavActive('navDown');
         }
-    });
+    }, [buttonActive]);
 
     return (
         <nav className={navActive}>
@@ -36,8 +36,15 @@ const Navigation = () => {
                         Projects
                     </NavLink>
                 </li>
+                <li key={'contact'} >
+                    <NavLink to="/contact"
+                        className={({isActive}) => `nav-link ${isActive? 'nav-link-active' : ''}`}
+                    >
+                        Contact
+                    </NavLink>
+                </li>
             </ul>
-            <img className={`navButton ${buttonActive}`} onClick={navTransition} src={ArrowButton} />
+            <img className={`navButton ${buttonActive}`} onClick={navTransition} src={ArrowButton} alt="Nav Arrow" />
         </nav>
     )
 }
