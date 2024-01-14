@@ -166,7 +166,7 @@
 #contact-submit {
     border: none;
     height: 100%;
-    width: 100%;
+    width: 60px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 1rem;
     margin-top: 5%;
