@@ -38,16 +38,17 @@ const Projects = () => {
                         <h1>{item.name}</h1>
                         <img className="projectImage" src={item.img} alt="Working App" />
                         <div className="buttonGroup">
-                            <a href={item.demo}>
+                            <a href={item.demo} target="_blank">
                                 <button className="projectButton demo">Demo</button>
                             </a>
-                            <a href={item.code}>
+                            <a href={item.code} target="_blank">
                                 <button className="projectButton code">Code</button>
                             </a>
                         </div>
                     </section>
                 ))}
             </div>
+            <div class="gradient"></div>
         </div>
     )
 }

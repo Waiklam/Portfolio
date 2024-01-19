@@ -19,9 +19,9 @@ const Contact = () => {
                                 <p className="contactText">I want to help companies create beautiful and meaningful spaces for their customers</p>
                                 <p className="contactText">We can do so much together. Lets talk.</p>
                                 <div className="iconPanel">
-                                    <a href="mailto: waiklam97@gmail.com" className="contact-icon"><img src={EmailIcon} alt="email" className="contact-icon" /></a>
-                                    <a href="https://www.linkedin.com/in/wai-lam-6b71b6184/" className="contact-icon"><img src={LinkedInIcon} alt="linked-in" className="contact-icon" /></a>
-                                    <a href="Tel: 123-456-7890" className="contact-icon"><img src={PhoneIcon} alt="phone" className="contact-icon" /></a>
+                                    <a href="mailto: waiklam97@gmail.com" target="_blank" className="contact-icon"><img src={EmailIcon} alt="email" className="contact-icon" /></a>
+                                    <a href="https://www.linkedin.com/in/wai-lam-6b71b6184/" target="_blank" className="contact-icon"><img src={LinkedInIcon} alt="linked-in" className="contact-icon" /></a>
+                                    <a href="Tel: 123-456-7890" target="_blank" className="contact-icon"><img src={PhoneIcon} alt="phone" className="contact-icon" /></a>
                                 </div>
                             </div>
                             <div className="contact right">
@@ -46,7 +46,7 @@ const Contact = () => {
                                                 <input type="text" className="input" name="form-phone-number" id="form-phone-number" placeholder="Phone" required />
                                             </div>
                                         </div>
-                                        <textarea className="contactMessage" name="message" id="contactForm" placeholder="Message"></textarea>
+                                        <textarea className="contactMessage" name="message" id="contactForm" placeholder="Hey, I think we need a frontend developer at our company. When can we discuss this?"></textarea>
                                         <div className="contact-row">
                                             <div className="full">
                                                 <input type="submit" id="contact-submit" /> 
@@ -60,6 +60,7 @@ const Contact = () => {
 
                 </div>
             </div>
+            <div class="gradient"></div>
         </div> 
     )
 }

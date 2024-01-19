@@ -1,0 +1,60 @@
+.skillsPage {
+    background-color: #222;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    color: whitesmoke;
+    text-shadow: #222 1px 0 10px;
+}
+
+.skillsHeader {
+    min-height: 150px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-wrap: nowrap;
+    z-index: 1;
+}
+
+.skillsTitle {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.skillsSection {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+    margin: 15px 5%;
+}
+
+.indivSkill {
+    width: 25%;
+    min-width: 150px;
+    margin-bottom: 3vh;
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.skillImg {
+    height: 70px;
+    max-width: 70px;
+    align-self: center;
+    justify-self: center;
+}

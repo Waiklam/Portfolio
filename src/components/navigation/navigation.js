@@ -16,7 +16,7 @@ const Navigation = () => {
         {
             id: 2,
             name: 'Skills',
-            path: '/'
+            path: '/skills'
         },
         {
             id: 3,

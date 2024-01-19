@@ -1,7 +1,7 @@
 nav {
     position: absolute;
     text-align: center;
-    height: 15%;
+    height: 12%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@ nav a:hover {
 }
 
 .navUp {
-    top: -15%;
+    top: -12%;
 }
 
 .navDown {

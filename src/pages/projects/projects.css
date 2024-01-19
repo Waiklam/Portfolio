@@ -1,40 +1,43 @@
 .projectPage {
+    background-color: #222;
     position: absolute;
-    height: 100%;
-    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background: linear-gradient(270deg, #00b788, #878aff);
-    background-size: 400% 400%;
-
-    animation: background 15s ease infinite;
-}
-
-@keyframes background {
-    0% {
-        background-position:0% 50%;
-    }
-    50% {
-        background-position:100% 50%;
-    }
-    100% {
-        background-position:0% 50%;
-    }
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    color: whitesmoke;
+    text-shadow: #222 1px 0 10px;
 }
 
 .projectHeader {
-    font-size: 2rem;
-    padding: 2rem;
+    min-height: 150px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-wrap: nowrap;
+    z-index: 1;
+}
+
+.projectTitle {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .projectBody {
     width: 90%;
-    min-width: 900px;
     display: flex;
     justify-content: space-evenly;
     align-content: space-evenly;
+    flex-wrap: wrap;
+    z-index: 2;
 }
 
 .projectBody h1 {
@@ -44,11 +47,12 @@
 
 .projectRow {
     width: 25%;
+    min-width: 250px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: ;
 }
 
 .projectImage {
