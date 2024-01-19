@@ -38,10 +38,10 @@ const Projects = () => {
                         <h1>{item.name}</h1>
                         <img className="projectImage" src={item.img} alt="Working App" />
                         <div className="buttonGroup">
-                            <a href={item.demo} target="_blank">
+                            <a href={item.demo} target="_blank" rel="noreferrer">
                                 <button className="projectButton demo">Demo</button>
                             </a>
-                            <a href={item.code} target="_blank">
+                            <a href={item.code} target="_blank" rel="noreferrer">
                                 <button className="projectButton code">Code</button>
                             </a>
                         </div>

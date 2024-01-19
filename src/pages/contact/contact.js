@@ -19,9 +19,9 @@ const Contact = () => {
                                 <p className="contactText">I want to help companies create beautiful and meaningful spaces for their customers</p>
                                 <p className="contactText">We can do so much together. Lets talk.</p>
                                 <div className="iconPanel">
-                                    <a href="mailto: waiklam97@gmail.com" target="_blank" className="contact-icon"><img src={EmailIcon} alt="email" className="contact-icon" /></a>
-                                    <a href="https://www.linkedin.com/in/wai-lam-6b71b6184/" target="_blank" className="contact-icon"><img src={LinkedInIcon} alt="linked-in" className="contact-icon" /></a>
-                                    <a href="Tel: 123-456-7890" target="_blank" className="contact-icon"><img src={PhoneIcon} alt="phone" className="contact-icon" /></a>
+                                    <a href="mailto: waiklam97@gmail.com" target="_blank" rel="noreferrer" className="contact-icon"><img src={EmailIcon} alt="email" className="contact-icon" /></a>
+                                    <a href="https://www.linkedin.com/in/wai-lam-6b71b6184/" target="_blank" rel="noreferrer" className="contact-icon"><img src={LinkedInIcon} alt="linked-in" className="contact-icon" /></a>
+                                    <a href="Tel: 123-456-7890" target="_blank" rel="noreferrer" className="contact-icon"><img src={PhoneIcon} alt="phone" className="contact-icon" /></a>
                                 </div>
                             </div>
                             <div className="contact right">
