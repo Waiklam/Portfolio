@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fda88707.css",
-    "main.js": "/Portfolio/static/js/main.d5c86ca0.js",
+    "main.css": "/Portfolio/static/css/main.f3d2bb57.css",
+    "main.js": "/Portfolio/static/js/main.f0ae3e29.js",
     "static/js/787.3f950d08.chunk.js": "/Portfolio/static/js/787.3f950d08.chunk.js",
     "static/media/TwitchFanSite.png": "/Portfolio/static/media/TwitchFanSite.a8a97b80a8f17375c784.png",
     "static/media/Linux.png": "/Portfolio/static/media/Linux.6d208c95cc37fd3cdc44.png",
@@ -17,12 +17,12 @@
     "static/media/Papyrus.png": "/Portfolio/static/media/Papyrus.0035cc83a9ff5d92e863.png",
     "static/media/Lightroom.png": "/Portfolio/static/media/Lightroom.f6c5a573910e8cdc8f44.png",
     "index.html": "/Portfolio/index.html",
-    "main.fda88707.css.map": "/Portfolio/static/css/main.fda88707.css.map",
-    "main.d5c86ca0.js.map": "/Portfolio/static/js/main.d5c86ca0.js.map",
+    "main.f3d2bb57.css.map": "/Portfolio/static/css/main.f3d2bb57.css.map",
+    "main.f0ae3e29.js.map": "/Portfolio/static/js/main.f0ae3e29.js.map",
     "787.3f950d08.chunk.js.map": "/Portfolio/static/js/787.3f950d08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fda88707.css",
-    "static/js/main.d5c86ca0.js"
+    "static/css/main.f3d2bb57.css",
+    "static/js/main.f0ae3e29.js"
   ]
 }
