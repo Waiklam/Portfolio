@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.f2858de0.css",
+    "main.js": "/Portfolio/static/js/main.7723f3de.js",
+    "static/js/453.298f5782.chunk.js": "/Portfolio/static/js/453.298f5782.chunk.js",
+    "static/media/TwitchFanSite.png": "/Portfolio/static/media/TwitchFanSite.a8a97b80a8f17375c784.png",
+    "static/media/color-sharp2.png": "/Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/MTGDeck.jpg": "/Portfolio/static/media/MTGDeck.b23e613a0e5a706a00d5.jpg",
+    "static/media/ProjectSpotify.png": "/Portfolio/static/media/ProjectSpotify.64b167496d3a6b9f642e.png",
+    "static/media/React.png": "/Portfolio/static/media/React.8a6fc0a24a800d1e0f4a.png",
+    "static/media/Python.png": "/Portfolio/static/media/Python.82efb64f8698a267f8bf.png",
+    "static/media/banner-bg.png": "/Portfolio/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/Portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/Nodejs.png": "/Portfolio/static/media/Nodejs.fc3bd1ec69d7a50e685a.png",
+    "static/media/SQL.png": "/Portfolio/static/media/SQL.1881f32ef4e0ce53321d.png",
+    "static/media/contact-img.png": "/Portfolio/static/media/contact-img.5be642b8637a3b33ba5c.png",
+    "static/media/CentraNo2-Bold.ttf": "/Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/Portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/Portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/Portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/RockPaperScissors.png": "/Portfolio/static/media/RockPaperScissors.fdac7674dd1c7fedb0d2.png",
+    "static/media/CSS.png": "/Portfolio/static/media/CSS.443bc827ad57da012b4b.png",
+    "static/media/HTML.png": "/Portfolio/static/media/HTML.9b674892ef5960bafca3.png",
+    "static/media/JavaScript.png": "/Portfolio/static/media/JavaScript.d206e1f67e4c0985166c.png",
+    "static/media/AWS-Lambda.png": "/Portfolio/static/media/AWS-Lambda.b245c60926ab2f28c3b1.png",
+    "static/media/revicons.eot": "/Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Portfolio/index.html",
+    "static/media/nav-icon1.svg": "/Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.f2858de0.css.map": "/Portfolio/static/css/main.f2858de0.css.map",
+    "main.7723f3de.js.map": "/Portfolio/static/js/main.7723f3de.js.map",
+    "453.298f5782.chunk.js.map": "/Portfolio/static/js/453.298f5782.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2858de0.css",
+    "static/js/main.7723f3de.js"
+  ]
+}
