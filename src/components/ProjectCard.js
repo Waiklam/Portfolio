@@ -9,9 +9,9 @@ export const ProjectCard = ({title, code, demo, description, img}) => {
                     <h4>{title}</h4>
                     <span className="pad">{description}</span>
                     <div>
-                        <a href={code}><span>code</span></a>
+                        <a target="_blank" rel="noopener noreferrer" href={code}><span>code</span></a>
                         <span>   </span>
-                        <a href={demo}><span>demo</span></a>
+                        <a target="_blank" rel="noopener noreferrer" href={demo}><span>demo</span></a>
                     </div>
                 </div>
             </div>

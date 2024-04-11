@@ -52,7 +52,7 @@ export const Banner = () => {
                         <h1>{`Hi I'm Wai `}</h1>
                         <h1><span className="wrap hold"><span className="zen">A </span>{text}</span></h1>
                         <p>I'm a junior developer enthusiastic about making an impact in the tech industry. I've honed my skills through hands-on experience in developing full-stack applications, leveraging technologies such as React for front-end, building RESTful APIs, and managing SQL databases. I've also delved into cloud services, having integrated multiple AWS services my projects.</p>
-                        <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                        <button><a className="" href="#connect">Let’s Connect<ArrowRightCircle size={25} /></a></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header img" ></img>
