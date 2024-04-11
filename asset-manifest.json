@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f2858de0.css",
-    "main.js": "/Portfolio/static/js/main.7723f3de.js",
+    "main.css": "/Portfolio/static/css/main.0c763b3f.css",
+    "main.js": "/Portfolio/static/js/main.a916cc14.js",
     "static/js/453.298f5782.chunk.js": "/Portfolio/static/js/453.298f5782.chunk.js",
     "static/media/TwitchFanSite.png": "/Portfolio/static/media/TwitchFanSite.a8a97b80a8f17375c784.png",
     "static/media/color-sharp2.png": "/Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -28,12 +28,12 @@
     "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Portfolio/index.html",
     "static/media/nav-icon1.svg": "/Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.f2858de0.css.map": "/Portfolio/static/css/main.f2858de0.css.map",
-    "main.7723f3de.js.map": "/Portfolio/static/js/main.7723f3de.js.map",
+    "main.0c763b3f.css.map": "/Portfolio/static/css/main.0c763b3f.css.map",
+    "main.a916cc14.js.map": "/Portfolio/static/js/main.a916cc14.js.map",
     "453.298f5782.chunk.js.map": "/Portfolio/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2858de0.css",
-    "static/js/main.7723f3de.js"
+    "static/css/main.0c763b3f.css",
+    "static/js/main.a916cc14.js"
   ]
 }
